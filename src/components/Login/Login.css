@@ -1,0 +1,72 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+.card-signin {
+  border: 0 !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden !important;
+}
+
+.card-signin .card_title {
+  margin-bottom: 2rem !important;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
+.card-signin .card_img_left {
+  width: 45% !important;
+  background: scroll center
+    url("https://source.unsplash.com/WEQbe2jBg40/414x512");
+  background-size: cover !important;
+}
+
+.card-signin .card_body {
+  padding: 2rem !important;
+}
+
+.form_signin {
+  width: 100% !important;
+}
+
+.signin_btn {
+  font-size: 80% !important;
+  border-radius: 5rem !important;
+  letter-spacing: 0.1rem !important;
+  font-weight: bold !important;
+  padding: 1rem !important;
+  transition: all 0.2s !important;
+  box-shadow: none !important;
+}
+
+.form_group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form_group input {
+  padding: 0.7rem;
+  height: auto;
+  border-radius: 2rem;
+  box-shadow: none !important;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335 !important;
+}
+
+.btn-google:hover {
+  background-color: #cc2f20 !important;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998 !important;
+}
+
+.btn-facebook:hover {
+  background-color: #2558c5 !important;
+}

@@ -1,0 +1,6 @@
+body {
+    background: url(/src/components/Images/bg.jpg) no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+}
